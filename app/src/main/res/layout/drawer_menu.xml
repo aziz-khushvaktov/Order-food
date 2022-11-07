@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#FA4A0C"
+    android:id="@+id/fl_drawer_menu"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:gravity="start"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_baseline_person_outline_24" />
+
+            <TextView
+                android:id="@+id/tv_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/str_profile"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                 />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="130dp"
+            android:layout_height="0.3dp"
+            android:layout_marginVertical="20dp"
+            android:layout_marginStart="35dp"
+            android:background="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/ll_orders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_orders" />
+
+            <TextView
+                android:id="@+id/tv_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/str_orders"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="130dp"
+            android:layout_height="0.3dp"
+            android:layout_marginVertical="20dp"
+            android:layout_marginStart="35dp"
+            android:background="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/ll_offer_promo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_baseline_local_offer_24" />
+
+            <TextView
+                android:id="@+id/tv_order_promo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/str_offer_and_promo"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="130dp"
+            android:layout_height="0.3dp"
+            android:layout_marginVertical="20dp"
+            android:layout_marginStart="35dp"
+            android:background="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/ll_privacy_policy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_privacy" />
+
+            <TextView
+                android:id="@+id/tv_privacy_policy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/str_privacy_policy"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="130dp"
+            android:layout_height="0.3dp"
+            android:layout_marginVertical="20dp"
+            android:layout_marginStart="35dp"
+            android:background="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/ll_security"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_security" />
+
+            <TextView
+                android:id="@+id/tv_security"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/str_security"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:gravity="start|bottom"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="20dp">
+
+        <LinearLayout
+            android:id="@+id/ll_sign_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_sign_out"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text="@string/str_sign_out"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:layout_marginStart="10dp"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_arrow"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

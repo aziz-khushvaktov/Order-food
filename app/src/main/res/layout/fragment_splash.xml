@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red_splash"
+    android:id="@+id/layout_splash"
+    tools:context=".fragment.SplashFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--        white circle-->
+        <LinearLayout
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/view_white_circle"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bella_olonje_logo_111" />
+
+        </LinearLayout>
+
+        <!--        CALEB G and Restaurant-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="30dp"
+            android:paddingTop="10dp"
+            tools:ignore="RtlSymmetry">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_caleb"
+                android:textColor="@color/white"
+                android:textSize="55sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="55sp" />
+
+        </LinearLayout>
+
+        <!--        images-->
+        <FrameLayout
+            android:layout_marginBottom="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:gravity="start|bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/toy_faces_tansparent_bg_49"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="60dp"
+                android:translationZ="-90dp"
+                android:gravity="end|bottom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/toy_faces_tansparent_bg_29"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    />
+
+            </LinearLayout>
+
+<!--            background transparent color-->
+            <LinearLayout
+                android:translationZ="90dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom">
+
+                <LinearLayout
+                    android:background="@drawable/view_background_color"
+                    android:backgroundTint="@color/red_splash_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"/>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <!--        get started button-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/b_get_started"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="50dp"
+            android:background="@drawable/view_button_white_rounded"
+            android:backgroundTint="@color/white"
+            android:text="@string/str_get_started"
+            android:textAllCaps="false"
+            android:textColor="@color/brown"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

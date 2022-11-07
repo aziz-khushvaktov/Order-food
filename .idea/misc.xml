@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Restaurant/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.15" />
+        <entry key="..\:/Restaurant/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.143" />
+        <entry key="..\:/Restaurant/app/src/main/res/drawable/nav_item_color_state.xml" value="0.1" />
+        <entry key="..\:/Restaurant/app/src/main/res/drawable/textview_checked_color.xml" value="0.143" />
+        <entry key="..\:/Restaurant/app/src/main/res/drawable/view_background_card.xml" value="0.147" />
+        <entry key="..\:/Restaurant/app/src/main/res/drawable/view_background_color.xml" value="0.147" />
+        <entry key="..\:/Restaurant/app/src/main/res/drawable/view_button_brown_rounded.xml" value="0.1305" />
+        <entry key="..\:/Restaurant/app/src/main/res/drawable/view_button_white_rounded.xml" value="0.147" />
+        <entry key="..\:/Restaurant/app/src/main/res/drawable/view_edittext_rounded_grey.xml" value="0.1305" />
+        <entry key="..\:/Restaurant/app/src/main/res/drawable/view_white_circle.xml" value="0.147" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout-v29/fragment_splash.xml" value="0.2125" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/activity_home.xml" value="0.12745098039215685" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/drawer_menu.xml" value="0.2" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/fragment_cart.xml" value="0.22" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/fragment_drinks.xml" value="0.2125" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/fragment_favourite.xml" value="0.2125" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/fragment_food.xml" value="0.2125" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/fragment_history.xml" value="0.2125" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/fragment_home_main.xml" value="0.20885416666666667" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/fragment_login.xml" value="0.2125" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/fragment_register.xml" value="0.2125" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/fragment_sauces.xml" value="0.2125" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/fragment_sign_up.xml" value="0.1984375" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/fragment_snacks.xml" value="0.2125" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/fragment_splash.xml" value="0.22" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/item_cart_layout.xml" value="0.25" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/item_food_layout.xml" value="0.2125" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/item_foor_menu.xml" value="0.2125" />
+        <entry key="..\:/Restaurant/app/src/main/res/layout/nav_header_main.xml" value="0.2125" />
+        <entry key="..\:/Restaurant/app/src/main/res/menu/activity_main_drawer.xml" value="0.2125" />
+        <entry key="..\:/Restaurant/app/src/main/res/menu/menu.xml" value="0.2125" />
+        <entry key="..\:/Restaurant/app/src/main/res/xml/root_preferences.xml" value="0.2125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

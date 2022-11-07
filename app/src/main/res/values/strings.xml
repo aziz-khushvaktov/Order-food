@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+
+    <string name="str_caleb">CALEB G</string>
+    <string name="str_restaurant">Restaurant</string>
+    <string name="str_get_started">Get started</string>
+    <string name="str_login">Login</string>
+    <string name="str_signUp">Sign-up</string>
+    <string name="str_email_address">Email address</string>
+    <string name="str_password">Password</string>
+    <string name="str_forgot_password">Forgot password?</string>
+    <string name="str_delicious_food_for_you">Delicious food for you</string>
+    <string name="str_search">Search</string>
+    <string name="str_foods">Foods</string>
+    <string name="str_drinks">Drinks</string>
+    <string name="str_snacks">Snacks</string>
+    <string name="str_see_more">See more</string>
+    <string name="str_veggie_tomato_mix">Veggie tomato mix</string>
+    <string name="str_history">History</string>
+    <string name="str_no_history_yet">No history yet</string>
+    <string name="str_hit_the_orange">Hit the orange button down \n below to Create an order</string>
+    <string name="str_start_ordering">Start ordering</string>
+    <string name="str_orders">Orders</string>
+    <string name="str_no_orders_yet">No orders yet</string>
+    <string name="str_phone_number">Phone Number</string>
+    <string name="str_register">Register</string>
+    <string name="str_tomato_veggie">Tomato Veggie</string>
+    <string name="str_egg_and_cucumber">Egg and cucumber</string>
+    <string name="str_fried_chicken_sau..">Fried chicken sau…</string>
+    <string name="str_rice_and_beaf_soup">Rice and Beaf soup</string>
+    <string name="str_my_profile">My profile</string>
+    <string name="str_information">Information</string>
+    <string name="str_thelma_sara_bear">Thelma Sara-bear</string>
+    <string name="str_thelma_sara_email">thelma_sara-bear@gmail.com</string>
+    <string name="str_thelma_about">Trasaco hotel, behind navrongo campus</string>
+    <string name="str_payment_method">Payment Method</string>
+    <string name="str_card">Card</string>
+    <string name="str_mobile_money">Mobile Money (MTN, VODA)</string>
+    <string name="str_pay_on_delivery">Pay on delivery</string>
+    <string name="str_update_information">Update information</string>
+    <string name="str_delivery_info">Delivery info</string>
+    <string name="str_delivery_info_tag">Delivered between monday aug and thursday 20 from 8pm to 9:32pm</string>
+    <string name="str_return_policy">Return policy</string>
+    <string name="str_return_policy_info">All our foods are double checked before leaving our stores so by any case you found a broken food please contact out hotline immeditately.</string>
+    <string name="str_add_to_cart">Add to cart</string>
+    <string name="str_item_not_found">Item not found</string>
+    <string name="str_item_not_found_info">Try searching the item with a different keyword.</string>
+    <string name="str_no_internet_connection">No internet Connection</string>
+    <string name="str_no_internet_connection_info">Your internet connection is currently not available please check or try again.</string>
+    <string name="str_try_again">Try again</string>
+    <string name="str_checkout">Checkout</string>
+    <string name="str_delivery">Deliver</string>
+    <string name="str_address_details">Address details</string>
+    <string name="str_change">Change</string>
+    <string name="str_trasaco_hotel">Trasaco hotel, behind navrongo campus</string>
+    <string name="str_delivery_method">Delivery method.</string>
+    <string name="str_door_delivery">Door delivery</string>
+    <string name="str_pick_up">Pick up</string>
+    <string name="str_total">Total</string>
+    <string name="str_proceed_to_payment">Proceed to payment</string>
+    <string name="str_cart">Cart</string>
+    <string name="str_swipe_item_to_delete">swipe on an item to delete</string>
+    <string name="str_my_offers">My offers</string>
+    <string name="str_ohh_snap">ohh snap! No offers yet</string>
+    <string name="str_please_check_again">Please check again.</string>
+    <string name="str_complete_order">Complete order</string>
+    <string name="str_thanks_ordering">Thank you for Ordering</string>
+    <string name="str_delivery_will_be_soon">Your delivery will be soon.</string>
+    <string name="str_personal_details">Personal details</string>
+    <string name="str_pending_reviews">Pending reviews</string>
+    <string name="str_faq">Faq</string>
+    <string name="str_help">Help</string>
+    <string name="str_update">Update</string>
+    <string name="str_please_note">Please note</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_proceed">Proceed</string>
+    <string name="str_profile">Profile</string>
+    <string name="str_offer_and_promo">Offer and promo</string>
+    <string name="str_privacy_policy">Privacy policy</string>
+    <string name="str_security">Security</string>
+    <string name="str_home">Home</string>
+    <string name="str_favourite">Favourite</string>
+    <string name="str_personal">Personal</string>
+    <string name="str_sauces">Sauces</string>
+    <string name="str_sign_out">Sign-out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+</resources>

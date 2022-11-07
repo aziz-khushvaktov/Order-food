@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background_grey"
+    android:backgroundTint="@color/light_background_grey"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.HomeFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--        settings and order images-->
+        <LinearLayout
+            android:layout_marginStart="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:src="@drawable/vector" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
+                android:gravity="end">
+
+                <ImageView
+                    android:id="@+id/iv_order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:src="@drawable/vector_2" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--        delicious food for you -->
+        <TextView
+            android:layout_marginStart="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="150dp"
+            android:text="@string/str_delicious_food_for_you"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <!--        EditText search-->
+        <EditText
+            android:layout_marginStart="50dp"
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/view_edittext_rounded_grey"
+            android:drawableStart="@drawable/search"
+            android:drawablePadding="10dp"
+            android:hint="@string/str_search"
+            android:paddingLeft="30dp"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <!--        TabLayout-->
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabL_home"
+            app:tabTextAppearance="@style/MyCustomTextAppearance"
+            android:layout_marginStart="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:tabIndicatorColor="@color/brown"
+            app:tabSelectedTextColor="@color/brown" />
+
+        <!--        see more-->
+        <TextView
+            android:layout_marginStart="50dp"
+            android:id="@+id/tv_see_more"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="end"
+            android:text="@string/str_see_more"
+            android:textColor="@color/brown" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vp_home"
+            android:nestedScrollingEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
